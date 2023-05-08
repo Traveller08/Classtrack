@@ -1,0 +1,111 @@
+.input-field-text {
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.55);
+    border-radius: 100em;
+    width: 99%;
+}
+
+.input-field-text:focus~.input-container {
+    color: rebeccapurple;
+    border: 2px solid blue;
+}
+
+.login-container {
+    display: flex;
+    /* background-color: red; */
+    padding: 5% 5%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    width: 30%;
+    height: 100vh;
+}
+
+.btn-container {
+    display: flex;
+    /* background-color: red; */
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: start;
+    align-content: stretch;
+    margin-top: 2%;
+    width: 100%;
+}
+
+.input-container {
+    border: 0.5px solid black;
+    width: 100%;
+    border-radius: 5px;
+    /* background-color: blue; */
+    /* padding: 5px 15px; */
+    margin-top: 2%;
+}
+
+.extra-container {
+    display: flex;
+    /* background-color: red; */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* justify-content: center; */
+    align-items: flex-start;
+    align-content: stretch;
+    margin-top: 2%;
+    width: 100%;
+}
+
+.remember-me {
+    width: 50%;
+    display: flex;
+    background-color: blue;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: flex-start;
+}
+
+.remember-me {
+    margin-left: 0;
+}
+
+.forgot-password {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.signup-redirect {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+}
+
+/* 
+
+
+
+*/
+.vh-90{
+    height: 90vh;
+}
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}

@@ -1,0 +1,42 @@
+.r-outr{
+    background-color: red;
+
+}
+.b-outr{
+   background-color: #0750c6;
+}
+.r-outr:hover{
+    background-color: rgb(173, 29, 29);
+
+}
+.b-outr:hover{
+   background-color: #023e9f;
+}
+.btnr{
+ 
+
+    color: #fff;
+    
+    width: fit-content;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    border: 0;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.2), 0 2px 10px 0 rgba(0,0,0,.1);
+    font-weight: 500;
+    padding: 0.625rem 1.5rem 0.5rem;
+    font-size: .75rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        user-select: none;
+        box-sizing: border-box;
+}
+
+.btnr:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.3), 0 2px 10px 0 rgba(0,0,0,.2);
+
+}
+.lg-btnr{
+
+}
